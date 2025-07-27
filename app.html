@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        background-color: #eee;
+        width: fit-content;
+        border-radius: 10px;
+      }
+      input {
+        border: none;
+        padding: 5px;
+      }
+      button {
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        background-color: #9f9f9f;
+        margin: 0 10px;
+      }
+      .task-box {
+        border: 1px solid;
+        border-radius: 10px;
+        background-color: #eee;
+        margin: auto;
+        text-align: center;
+        width: 20%;
+        padding: 10px;
+        margin-top: 20px;
+      }
+</style>
+
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <input type="text" placeholder="enter your Task" name="Task" />
+      <button>Add Task</button>
+    </form>
+    <div class="tasks task-box"></div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
